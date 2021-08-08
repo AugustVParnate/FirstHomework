@@ -3,6 +3,7 @@ package by.bsu.figure;
 import java.util.Objects;
 
 public class Plane {
+    private double angle;
 
     @Override
     public String toString() {

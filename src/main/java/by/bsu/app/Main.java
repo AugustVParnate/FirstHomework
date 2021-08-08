@@ -4,11 +4,7 @@ import by.bsu.actionclass.Methods;
 import by.bsu.point.Point;
 import by.bsu.validationclass.DataChecker;
 
-//import org.apache.log4j.Logger;
-//import org.apache.log4j.LogManager;
-
 public class Main {
-    //private static final Logger LOG = LogManager.getLogger(Main.class);
 
     public static void main(String[] args) throws Exception {
         if(args.length == 0) {

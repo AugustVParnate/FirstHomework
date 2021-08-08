@@ -1,12 +1,12 @@
 package by.bsu.point;
 
-//import org.apache.log4j.Logger;
-//import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 import java.util.Objects;
 
 public class Point {
-  //  private static final Logger LOG = LogManager.getLogger(Point.class);
+    private static final Logger LOG = LogManager.getLogger(Point.class);
 
     private double x;
     private double y;
@@ -18,7 +18,7 @@ public class Point {
 
     public void setX(double valueX) throws Exception {
        if (valueX > 10 || valueX < -10) {
-    //       LOG.info("Error. Choose value from -10 to 10!");
+           LOG.info("Error. Choose value from -10 to 10!");
            throw new Exception("Error. Choose values from -10 to 10!");
        }
        x = valueX;
@@ -30,7 +30,7 @@ public class Point {
 
     public void setY(double valueY) throws Exception {
         if (valueY > 10 || valueY < -10) {
-      //      LOG.info("Error. Choose value from -10 to 10!");
+            LOG.info("Error. Choose value from -10 to 10!");
             throw new Exception("Error. Choose values from -10 to 10!");
         }
         y = valueY;
@@ -42,7 +42,7 @@ public class Point {
 
     public void setZ(double valueZ) throws Exception {
         if (valueZ > 10 || valueZ < -10) {
-       //     LOG.info("Error. Choose value from -10 to 10!");
+            LOG.info("Error. Choose value from -10 to 10!");
             throw new Exception("Error. Choose values from -10 to 10!");
         }
         z = valueZ;
