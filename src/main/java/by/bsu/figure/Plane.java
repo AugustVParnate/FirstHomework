@@ -4,16 +4,6 @@ import java.util.Objects;
 
 public class Plane {
 
-    private double angle;
-
-    public double getAngle() {
-        return angle;
-    }
-
-    public void setAngle(double valueAngle) {
-        this.angle = valueAngle;
-    }
-
     @Override
     public String toString() {
         return "Plane{" +

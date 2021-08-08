@@ -31,6 +31,7 @@ public class Main {
             thirdPoint.setY(dataChecker.y3);
             thirdPoint.setZ(dataChecker.z3);
         Methods obj = new Methods();
-        obj.isPlane(firstPoint, secondPoint, thirdPoint);
+          obj.isPlane(firstPoint, secondPoint, thirdPoint);
+          obj.isPerpendicular(firstPoint, secondPoint, thirdPoint);
     }
 }
