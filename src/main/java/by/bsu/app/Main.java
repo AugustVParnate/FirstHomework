@@ -1,12 +1,17 @@
 package by.bsu.app;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
+
 import by.bsu.actionclass.Methods;
 import by.bsu.point.Point;
 import by.bsu.validationclass.DataChecker;
 
 public class Main {
+    private static final Logger LOG = LogManager.getLogger(Methods.class);
 
     public static void main(String[] args) throws Exception {
+        LOG.info("Program start!");
         if(args.length == 0) {
             System.out.println("Specify the path to the data file as a command-line parameter!");
             System.exit(0);
